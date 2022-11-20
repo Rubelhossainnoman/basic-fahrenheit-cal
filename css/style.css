@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: 'Dosis', sans-serif;
+}
+.cal{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+.cal label{
+    font-weight: 500;
+    font-size: 18px;
+}
+.cal input{
+    appearance: none;
+    outline: none;
+    border: 1px solid #999;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
